@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-08-07T14:30:22.123456",
+  "model_results": {
+    "granite-3-8b": {
+      "mlsum": {
+        "rouge_scores": {
+          "rouge1": 0.3245,
+          "rouge2": 0.1234,
+          "rougeL": 0.2987,
+          "num_successful": 985
+        },
+        "sample_summaries": {
+          "generated": ["Örnek özet 1", "Örnek özet 2"],
+          "reference": ["Referans özet 1", "Referans özet 2"]
+        }
+      },
+      "xlsum": {
+        "rouge_scores": {
+          "rouge1": 0.3156,
+          "rouge2": 0.1189,
+          "rougeL": 0.2876,
+          "num_successful": 978
+        },
+        "sample_summaries": {
+          "generated": ["Örnek özet 1", "Örnek özet 2"],
+          "reference": ["Referans özet 1", "Referans özet 2"]
+        }
+      }
+    },
+    "llama-3-3-70b": {
+      "mlsum": {
+        "rouge_scores": {
+          "rouge1": 0.3567,
+          "rouge2": 0.1456,
+          "rougeL": 0.3234,
+          "num_successful": 991
+        },
+        "sample_summaries": {
+          "generated": ["Örnek özet 1", "Örnek özet 2"],
+          "reference": ["Referans özet 1", "Referans özet 2"]
+        }
+      },
+      "xlsum": {
+        "rouge_scores": {
+          "rouge1": 0.3423,
+          "rouge2": 0.1398,
+          "rougeL": 0.3123,
+          "num_successful": 989
+        },
+        "sample_summaries": {
+          "generated": ["Örnek özet 1", "Örnek özet 2"],
+          "reference": ["Referans özet 1", "Referans özet 2"]
+        }
+      }
+    }
+  }
+}
