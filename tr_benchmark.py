@@ -202,7 +202,7 @@ print("-" * 80)
 for model_name, model_results in results["model_results"].items():
     for dataset_name, dataset_results in model_results.items():
         scores = dataset_results["rouge_scores"]
-        success_rate = scores['num_successful'] / 1000 * 100
+        success_rate = scores['num_successful'] / 250 * 100  
         print(f"{model_name:<20} {dataset_name:<10} {scores['rouge1']:<10.4f} {scores['rouge2']:<10.4f} {scores['rougeL']:<10.4f} {success_rate:<9.1f}%")
 
 # Generate visualization and summary
