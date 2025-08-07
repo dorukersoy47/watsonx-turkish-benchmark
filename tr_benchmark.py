@@ -61,8 +61,8 @@ def evaluate_rouge_scores(generated_summaries: List[str], reference_summaries: L
     }
 
 # Loading datasets
-mlsum_dataset = load_dataset("mlsum", "tu", split="test[:1000]")
-xlsum_dataset = load_dataset("csebuetnlp/xlsum", "turkish", split="test[:1000]")
+mlsum_dataset = load_dataset("mlsum", "tu", split="test[:250]")
+xlsum_dataset = load_dataset("csebuetnlp/xlsum", "turkish", split="test[:250]")
 
 # Configure Watsonx credentials
 load_dotenv()
@@ -140,7 +140,7 @@ results = {
 }
 
 print(f"Starting ROUGE evaluation for {len(models)} models on {len(datasets_to_evaluate)} datasets...")
-print(f"Each dataset contains 1000 examples.")
+print(f"Each dataset contains 250 examples.")
 
 # Evaluate each model on each dataset
 for model_name, model in models.items():
@@ -161,7 +161,7 @@ for model_name, model in models.items():
         for text in tqdm(texts, desc=f"Generating summaries for {dataset_name}"):
             summary = safe_generate_summary(model, text)
             generated_summaries.append(summary)
-            time.sleep(0.1)  # Small delay to prevent rate limiting while keeping speed
+            time.sleep(0.5)  # Small delay to prevent rate limiting while keeping speed
         
         # Calculate ROUGE scores
         rouge_scores = evaluate_rouge_scores(generated_summaries, reference_summaries)
