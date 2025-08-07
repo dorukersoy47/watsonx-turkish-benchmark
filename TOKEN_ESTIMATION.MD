@@ -89,7 +89,7 @@ params = {
 ```
 **Result**: ~40% reduction in output token costs
 
-### 4. Progressive Testing Strategy
+### 4. Possible Progressive Testing Strategy
 
 #### Phase 1: Quick Test (5 minutes, low cost)
 - 1 model (Granite-3-8b)
