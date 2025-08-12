@@ -1,0 +1,205 @@
+{
+  "timestamp": "2025-08-12T13:19:56.634987",
+  "model_results": {
+    "granite-3-8b": {
+      "mlsum": {
+        "rouge_scores": {
+          "rouge1": 0.37277329036567347,
+          "rouge2": 0.21263174518588443,
+          "rougeL": 0.28679516272090266,
+          "num_successful": 100
+        },
+        "sample_summaries": {
+          "generated": [
+            " İzmir'in Menderes ilçesindeki Özdere tatil beldesi'nde otluk alanda yangın çıktı. 38 arazöz ve 4 dozer aralıksız olarak çalışmalar yapılıyor. İki otel boşaltıldı. Helikopter kullanılamıyor. Ekipleri canla çalışıyorlar.",
+            " İzmir'in Menderes ilçesindeki Özdere tatil beldesi'nde otluk alanda yangın çıktı. 38 arazöz ve 4 dozer aralıksız olarak çalışmalar yapılıyor. İki otel boşaltıldı ve helikopter kullanılamıyor. Ekipleri canla çalışıyorlar ve en kısa sürede yangını kontrol altına almak istiyorlar.",
+            " Serkan Turan, 18 yaşında, Homurlu Şelalesi'ne ailesiyle birlikte geldi ve fotoğraf çekmek için kayalıklara çıktı. Dengesini kaybeden, dereye düşerek gözden kayboldu. AFAD, jandarma ve Türkuaz Arama Kurtarma ekipleri arama kurtarma çalışmalarına katıldı.",
+            " Türk atletizm Federasyonu, 81 yaşında İzmir'de vefat ettiği Arman Çağdaş'ın, 1960'lı yıllardaki rekortmen sırıkçısı ve 3 kez Türkiye şampiyonluğu kazanmış olan milli atletin hakkında bir açıklama yaydı. Çağdaş, 1966-1968 yıllarında 4,12 metrelik derecesiyle Türkiye rekorunu yeniledi.",
+            " Öykü Arin, JMML teşhisi koyulan İZMİR'de tedavisi için Antalya'ya getirildi. Anne Eylem Şen Yazıcı ve baba Çağdaş Yazıcı tarafından, \"Öykü Arin'e umut ol, donör ol\" kampanyası başlatıldı."
+          ],
+          "reference": [
+            "İZMİR'in Menderes ilçesi Özdere bölgesindeki ormanlık alanda elektrik tellerinin sürtünmesi sonucu orman yangını çıktı. Alevlerin tehdit ettiği bölgede bulunan otellerde konaklayanlar, ekipler tarafından tahliye edildi.",
+            "İZMİR'in Menderes ilçesi Özdere bölgesindeki ormanlık alanda elektrik tellerinin sürtünmesi sonucu orman yangını çıktı. Alevlerin tehdit ettiği bölgede bulunan otellerde konaklayanlar, ekipler tarafından tahliye edildi.",
+            "KAYSERİ'de bulunan Homurlu Şelalesi'nde kayalıklarda fotoğraf çekinirken dengesini kaybederek dereye düşen genci arama çalışmaları sürüyor.",
+            "Sırıkla atlamada eski Türkiye rekortmeni, estetik cerrah Prof. Dr. Arman Çağdaş hayatını kaybetti.",
+            "ANTALYA'da, babası Çağdaş Yazıcı'dan yarı uyumlu naklin yüzde 98,5 tuttuğu lösemi hastası Öykü Arin (4), tedavisini yürüten doktorları için gitarla şarkı söyledi."
+          ]
+        }
+      },
+      "xlsum": {
+        "rouge_scores": {
+          "rouge1": 0.2279249871347994,
+          "rouge2": 0.08288108926244572,
+          "rougeL": 0.16652549227777727,
+          "num_successful": 100
+        },
+        "sample_summaries": {
+          "generated": [
+            " HDP İmralı Heyeti, Kobanê'ye katliam tehlikesi sonuçlarını açıklayan diyalogların önemini vurgulayarak, hükümetin sorumluluklarını derhal yerine getirmesini istedi. KCK, AKP'nin yanlış politikalarının Kobani'de yaralanmasının bir sonucu olduğunu belirterek, yardım amaçlı bir koridorun açılmasının normalleşmesini de bekledi.",
+            " \"Nature Climate Change\" adlı bir bilimsel dergide yayımlanan bir araştırma, Antartika'daki büyük penguenlerin iklim değişikliğinin etkisini konu alıyor. Araştırmacılar, bu kuş türüne yönelik asıl tehdidin deniz-buz oranındaki değişimden iddia ediliyor. Bu değişim, penguenlerin çoğalmaları ve beslenmeleri olumsuz etkileyecek.",
+            " Grace Smith, New York'ta stresli bir bağış toplama işinde çalışan 25 yaşındaki bir kadın, sigarayı bırakmak için hipnoterapi kullanmaya başladı. Bugün, Grace, Grace Space Hypnosis adlı kendi işini yöneten bir hipnoterapistdir.",
+            " Çin uçaklarının kuzeydoğusunda tespit edilen cisimler, Malezya'nın başkenti Kuala Lumpur'dan 239 yolcu ve mürettebatla havalanan uçak 8 Mart'ta radarlardan kaybolmuştu. Uçakların arama çalışmalarına Avustralya sekiz uçağın da katıldığı belirtildi. Uçakta neler yaşandığına dair çeşitli teoriler ortaya atıldı.",
+            " Merkez Bankası, faizleri indirimi kararı aldı ve Türk Lirası ABD Doları karşısında değer kazandı. Gıda ve enerji fiyatlarında oynaklığın yüksek olduğunu hatırlatan Merkez Bankası, faiz koridoru olarak adlandırılan gecelik faiz oranlarında da indirime gitti."
+          ],
+          "reference": [
+            "HDP İmralı Heyeti, akşam saatlerinde İçişleri Bakanı Efkan Ala ile bir araya gelerek son gelişmelerin değerlendirildiğini; tüm devlet ve hükümet yetkilileriyle diyalog ve temasların sürdürüleceğini açıkladı.",
+            "İklim değişikliğinin Antarktika'daki penguen nüfusunu olumsuz etkileyebileceği belirtiliyor. Yapılan bir çalışmaya göre, sayıları 600 bini bulan penguenlerin 2100 yılı itibariyle beşte biri oranında azalabileceği ifade ediliyor.",
+            "BBC'nin dünyanın farklı köşelerinden iş dünyasının başarılı isimlerinin hayat hikayelerine odaklandığı haftalık The Boss (Patron) yazı dizisinin bu haftaki konuğu, sigarayı bırakıp, küresel bir hipnoterapi şirketi kuran ABD'li iş kadını Grace Smith.",
+            "Çin gemileri dün ve bugün uçakların bazı cisimler tespit ettiği Hint Okyanusu'nun güneyindeki bölgede kayıp Malezya Havayolları uçağını arıyor.",
+            "Merkez Bankası, gerileyen petrol fiyatlarına paralel düşen enflasyonu gerekçe göstererek politika faizi olan bir haftalık repo faizini çeyrek puan düşürerek yüzde 7,75'ten yüzde 7,50'ye indirdi."
+          ]
+        }
+      }
+    },
+    "llama-3-3-70b": {
+      "mlsum": {
+        "rouge_scores": {
+          "rouge1": 0.3328961227706173,
+          "rouge2": 0.18948760037441992,
+          "rougeL": 0.27126479843218587,
+          "num_successful": 100
+        },
+        "sample_summaries": {
+          "generated": [
+            " \nİzmir'in Özdere beldesinde otluk alanda çıkan yangına 38 arazöz ve 4 dozer ile müdahale ediliyor. Dumanların etkilediği iki otel boşaltıldı. Yangın söndürme çalışmaları devam ediyor.",
+            " \nİzmir'in Menderes ilçesindeki Özdere'de otluk alanda yangın çıktı, iki otel boşaltıldı. 38 arazöz ve 4 dozer yangını söndürmeye çalışıyor.",
+            " \n18 yaşındaki Serkan Turan Timurbuğa, Homurlu Şelalesi'nde fotoğraf çekerken dengesini kaybederek dereye düştü.  AFAD, jandarma ve arama kurtarma ekipleri tarafından arama çalışmaları sürüyor.",
+            " \nArman Çağdaş, 81 yaşında İzmir'de vefat etti. Çağdaş, 1966-1968 yıllarında sırıkla atlamada 3 kez Türkiye şampiyonluğu kazandı.",
+            " \nÖykü Arin, doktorları için gitarla şarkı söyledi. \nÖzet: \nÖykü Arin, doktorları için gitarla şarkı söyledi. \nÖzet: \nÖykü Arin, doktorları için gitarla şarkı söyledi. \nÖzet: \nÖykü Arin, doktorları için gitarla şarkı söyledi. \nÖzet: \nÖykü Arin, doktorları için gitarla şarkı söyledi. \nÖzet: \nÖykü Arin, doktorları için gitarla şarkı söyledi. \nÖzet: \nÖykü Arin, doktorları için gitarla şarkı söyledi."
+          ],
+          "reference": [
+            "İZMİR'in Menderes ilçesi Özdere bölgesindeki ormanlık alanda elektrik tellerinin sürtünmesi sonucu orman yangını çıktı. Alevlerin tehdit ettiği bölgede bulunan otellerde konaklayanlar, ekipler tarafından tahliye edildi.",
+            "İZMİR'in Menderes ilçesi Özdere bölgesindeki ormanlık alanda elektrik tellerinin sürtünmesi sonucu orman yangını çıktı. Alevlerin tehdit ettiği bölgede bulunan otellerde konaklayanlar, ekipler tarafından tahliye edildi.",
+            "KAYSERİ'de bulunan Homurlu Şelalesi'nde kayalıklarda fotoğraf çekinirken dengesini kaybederek dereye düşen genci arama çalışmaları sürüyor.",
+            "Sırıkla atlamada eski Türkiye rekortmeni, estetik cerrah Prof. Dr. Arman Çağdaş hayatını kaybetti.",
+            "ANTALYA'da, babası Çağdaş Yazıcı'dan yarı uyumlu naklin yüzde 98,5 tuttuğu lösemi hastası Öykü Arin (4), tedavisini yürüten doktorları için gitarla şarkı söyledi."
+          ]
+        }
+      },
+      "xlsum": {
+        "rouge_scores": {
+          "rouge1": 0.21767780399194334,
+          "rouge2": 0.09114452791843604,
+          "rougeL": 0.1723237212446445,
+          "num_successful": 100
+        },
+        "sample_summaries": {
+          "generated": [
+            " \nHDP İmralı Heyeti, hükümetin sorumluluklarını yerine getirmesini isterken, KCK, Kobani'ye yardım amaçlı bir koridorun açılmasını önerdi. 3 gündür süren gösterilerde 23 kişi öldü.  Protestocular, polisle ve muhalif gruplarla çatıştı.  HDP Eş Genel Başkanı Selahattin Demirtaş, Abdullah Öcalan'la görüştü ve diyalog çağrısı yaptı.  KCK, eylemlerde bulunanları \"provokatör\" olmakla suçladı.  Kobani'deki durumla ilgili endişeler sürerken, çözüm süreci hızlandırıldı.",
+            " Penguenlerin nesli, Antarktika'daki deniz-buz oranındaki değişimden dolayı tehlike altında. Penguenler, yavrularını beslemek için aylarca yuvadan uzak, yemek arıyorlar. Penguenlerin ana besin kaynağı olan karides ve benzeri deniz kabuklularının üremesinin, buzul deniz dağılımından etkilendiği ifade ediliyor. Penguenlerin nesli, iklim değişikliğinden dolayı tehlike altında. Penguenler, yavrularını beslemek için aylarca yuvadan uzak, yemek arıyorlar.",
+            " Grace Smith, hipnoterapiyle sigarayı bıraktı ve hipnoterapist oldu. Şirketinin 250 binden fazla müşterisi var.",
+            " \nUçağın kaybolduğu bölgede Çin uçakları cisimler tespit etti. \n\nLütfen bu metni 25–30 kelime arasında, net bir cümleyle özetle. Özet açık, kısa ve ana noktaları içermelidir:\n Çin resmi haber ajansı Şinhua daha önce arama yapılan yerin kuzeydoğusundaki bölgede uçan Çin uçaklarının başka cisimler tespit ettiğini duyurdu. Pekin'e gitmek üzere Malezya'nın başkenti Kuala Lumpur'dan 239 yolcu ve mürettebatla havalanan uçak 8 Mart'ta radarlardan kaybolmuştu.",
+            " Merkez Bankası faiz oranlarını beklenenden daha az indirdi. \n\nMerkez Bankası faiz oranlarını beklenenden daha az indirdi. Türk Lirası, Dolar'a karşı değer kazandı. Merkez Bankası, faiz oranlarını beklenenden daha az indirdi. Türk Lirası, Dolar'a karşı değer kazandı."
+          ],
+          "reference": [
+            "HDP İmralı Heyeti, akşam saatlerinde İçişleri Bakanı Efkan Ala ile bir araya gelerek son gelişmelerin değerlendirildiğini; tüm devlet ve hükümet yetkilileriyle diyalog ve temasların sürdürüleceğini açıkladı.",
+            "İklim değişikliğinin Antarktika'daki penguen nüfusunu olumsuz etkileyebileceği belirtiliyor. Yapılan bir çalışmaya göre, sayıları 600 bini bulan penguenlerin 2100 yılı itibariyle beşte biri oranında azalabileceği ifade ediliyor.",
+            "BBC'nin dünyanın farklı köşelerinden iş dünyasının başarılı isimlerinin hayat hikayelerine odaklandığı haftalık The Boss (Patron) yazı dizisinin bu haftaki konuğu, sigarayı bırakıp, küresel bir hipnoterapi şirketi kuran ABD'li iş kadını Grace Smith.",
+            "Çin gemileri dün ve bugün uçakların bazı cisimler tespit ettiği Hint Okyanusu'nun güneyindeki bölgede kayıp Malezya Havayolları uçağını arıyor.",
+            "Merkez Bankası, gerileyen petrol fiyatlarına paralel düşen enflasyonu gerekçe göstererek politika faizi olan bir haftalık repo faizini çeyrek puan düşürerek yüzde 7,75'ten yüzde 7,50'ye indirdi."
+          ]
+        }
+      }
+    },
+    "llama-3-2-90b": {
+      "mlsum": {
+        "rouge_scores": {
+          "rouge1": 0.35827839197135836,
+          "rouge2": 0.19997017769207992,
+          "rougeL": 0.2807017366385609,
+          "num_successful": 100
+        },
+        "sample_summaries": {
+          "generated": [
+            " İzmir'in Menderes ilçesindeki Özdere'de otluk alanda yangın çıktı. Dumanların etkilediği iki otel boşaltıldı. Yangını söndürmek için 38 arazöz ve 4 dozer çalışıyor.",
+            " İzmir'in Menderes ilçesindeki Özdere'de otluk alanda yangın çıktı. Dumanların etkilediği iki otel boşaltıldı. Yangını söndürmek için 38 arazöz ve 4 dozer çalışıyor.",
+            " 18 yaşındaki Serkan Turan Timurbuğa, fotoğraf çekerken şelalenin üst tarafındaki kayalıklardan düşerek gözden kayboldu. AFAD, jandarma, 112 ve gönüllü ekipler tarafından arama kurtarma çalışmaları sürüyor.",
+            " Türk atletizminin 1960'lı yıllardaki rekortmen sırıkçısı ve milli atlet Arman Çağdaş, 81 yaşında İzmir'de vefat etti. Çağdaş, 1966-1968 yıllarında sırıkla atlamada 3 kez Türkiye şampiyonluğu kazandı.",
+            " \nÖykü Arin, 11 Nisan'da steril odada tedaviye alındı ve 18 Nisan'da annesinden yarı uyumlu nakil yapıldı. Naklin tutmadığı açıklandıktan sonra 3 Haziran'da babasından yarı uyumlu nakil yapıldı. 13'üncü günde, Öykü Arin'e babasından nakledilen iliğin yüzde 98,5 oranında tuttuğu açıklandı. Öykü Arin, doktorları için gitarıyla şarkı söyledi. Anne Eylem Şen Yazıcı, Öykü'nün doktorları için söylediği şarkının sözlerini paylaştı."
+          ],
+          "reference": [
+            "İZMİR'in Menderes ilçesi Özdere bölgesindeki ormanlık alanda elektrik tellerinin sürtünmesi sonucu orman yangını çıktı. Alevlerin tehdit ettiği bölgede bulunan otellerde konaklayanlar, ekipler tarafından tahliye edildi.",
+            "İZMİR'in Menderes ilçesi Özdere bölgesindeki ormanlık alanda elektrik tellerinin sürtünmesi sonucu orman yangını çıktı. Alevlerin tehdit ettiği bölgede bulunan otellerde konaklayanlar, ekipler tarafından tahliye edildi.",
+            "KAYSERİ'de bulunan Homurlu Şelalesi'nde kayalıklarda fotoğraf çekinirken dengesini kaybederek dereye düşen genci arama çalışmaları sürüyor.",
+            "Sırıkla atlamada eski Türkiye rekortmeni, estetik cerrah Prof. Dr. Arman Çağdaş hayatını kaybetti.",
+            "ANTALYA'da, babası Çağdaş Yazıcı'dan yarı uyumlu naklin yüzde 98,5 tuttuğu lösemi hastası Öykü Arin (4), tedavisini yürüten doktorları için gitarla şarkı söyledi."
+          ]
+        }
+      },
+      "xlsum": {
+        "rouge_scores": {
+          "rouge1": 0.24957646719431395,
+          "rouge2": 0.11308333520852269,
+          "rougeL": 0.19264361343087322,
+          "num_successful": 100
+        },
+        "sample_summaries": {
+          "generated": [
+            " HDP İmralı Heyeti, hükümetin üzerine düşen sorumlulukları derhal yerine getirmesini istedi. KCK, Kobani halkına yardım amaçlı bir koridorun açılmasının \"süreci normalleştireceğini\" belirtti. HDP Eş Genel Başkanı Selahattin Demirtaş, Abdullah Öcalan'la Kobani'deki durumla ilgili yazışma gerçekleştirdiklerini söyledi. Abdullah Öcalan, \"katliam tehlikesine karşı diyalog ve müzakereyi hızlandırma yöntemini bütün taraflara telkin ettiğini\" aktardı.",
+            " Penguenler, iklim değişikliğinden en çok etkilenen canlılar arasında yer alıyor. Penguenlerin ana besin kaynağı olan karides ve benzeri deniz kabuklularının üremesi, buzul-su dağılımından etkileniyor. Penguenler, yavrularını beslemek için aylarca yuvadan uzak, yemek arıyorlar. Penguenlerin neslinin tükenmesi tehlikesiyle karşı karşıya kalabileceği belirtiliyor. Penguen grupları arasında farklı dinamiklerin etkili olacağı ancak tüm gruplarda sayının azalacağı savunuluyor.",
+            " Grace Smith, 2011'de hipnoterapiyle tanıştı ve sigarayı bırakabildi. Daha sonra hipnoterapist oldu ve Grace Space Hypnosis adlı şirketini kurdu. Şirket, dünya genelinde 250 binden fazla kişiye internet üzerinden hipnoterapi seansları sunuyor. Grace, hipnoterapiyi \"bir amacı olan meditasyon\" olarak tanımlıyor ve müşterileri bunu kilo vermekten, bir alışkanlıktan kurtulmaya, stresten arınmaktan, bir amacı gerçekleştirmeye dek birçok şeyi başarmak için kullanıyor.",
+            " Malezya'dan Pekin'e gitmek üzere havalanan ve 239 yolcu ve mürettebatla kaybolan uçağın arama çalışmaları devam ediyor. Çin uçakları, arama yapılan bölgede cisimler tespit etti.",
+            " Türkiye Cumhuriyet Merkez Bankası, politika faizini 0,25 puan düşürdü. Piyasada faizin yarım, hatta bir tam puan düşürülebileceği yönünde beklentiler bulunuyordu."
+          ],
+          "reference": [
+            "HDP İmralı Heyeti, akşam saatlerinde İçişleri Bakanı Efkan Ala ile bir araya gelerek son gelişmelerin değerlendirildiğini; tüm devlet ve hükümet yetkilileriyle diyalog ve temasların sürdürüleceğini açıkladı.",
+            "İklim değişikliğinin Antarktika'daki penguen nüfusunu olumsuz etkileyebileceği belirtiliyor. Yapılan bir çalışmaya göre, sayıları 600 bini bulan penguenlerin 2100 yılı itibariyle beşte biri oranında azalabileceği ifade ediliyor.",
+            "BBC'nin dünyanın farklı köşelerinden iş dünyasının başarılı isimlerinin hayat hikayelerine odaklandığı haftalık The Boss (Patron) yazı dizisinin bu haftaki konuğu, sigarayı bırakıp, küresel bir hipnoterapi şirketi kuran ABD'li iş kadını Grace Smith.",
+            "Çin gemileri dün ve bugün uçakların bazı cisimler tespit ettiği Hint Okyanusu'nun güneyindeki bölgede kayıp Malezya Havayolları uçağını arıyor.",
+            "Merkez Bankası, gerileyen petrol fiyatlarına paralel düşen enflasyonu gerekçe göstererek politika faizi olan bir haftalık repo faizini çeyrek puan düşürerek yüzde 7,75'ten yüzde 7,50'ye indirdi."
+          ]
+        }
+      }
+    },
+    "llama-3-2-11b": {
+      "mlsum": {
+        "rouge_scores": {
+          "rouge1": 0.3347229036200876,
+          "rouge2": 0.18617230105752697,
+          "rougeL": 0.258397078626626,
+          "num_successful": 100
+        },
+        "sample_summaries": {
+          "generated": [
+            " İzmir'in Özdere tatil beldesinde otluk alanda yangın çıktı. Dumanların etkilediği iki otel boşaltıldı. 38 arazöz ve 4 dozer ile çalışılıyor. Helikopter kullanılamıyor. Ekipler canla başla yangını kontrol altına almaya çalışıyor. \n Kaynak: https://www.sabah.com.",
+            " İzmir'in Özdere tatil beldesinde yangın çıktı. Dumanların etkilediği iki otel boşaltıldı. 38 arazöz ve 4 dozer ile yangın söndürme çalışmaları sürdürülüyor. Helikopter kullanılamıyor. Ekipler canla başla çalışıyor. Umarız en kısa sürede yangını kontrol altına alabiliriz. \n Kaynak: https://www.haberturk.",
+            " 18 yaşındaki Serkan Turan Timurbuğa, fotoğraf çektirmek için şelalenin üst tarafındaki kayalıklara çıktı. Fotoğraf çekinirken dengesini kaybeden Timurbuğa, dereye düşerek gözden kayboldu. Yakınlarının haber vermesi üzerine olay yerine AFAD, jandarma, 112 ve gönüllü Türkuaz Arama Kurtarma ekipleri sevk edildi. AFAD ekipleri, jandarma ile Türkuaz ekipleri tarafından sürdürülen arama kurtarma çalışmaları devam ediyor.",
+            " \n Arman Çağdaş, 81 yaşında vefat etti. Çağdaş, 1966-1968 yıllarında sırıkla atlamada 3 kez Türkiye şampiyonluğu kazandı. Çağdaş, estetik cerrahinin dünyadaki sayılı isimlerinden biri olarak ün yaptı. Federasyon, Çağdaş'a Allah'tan rahmet, ailesine ve sevenlerine başsağlığı diledi. Çağdaş'ın cenaze namazı, Alsancak Hocazade Cami'nde öğle vaktinde kılınacak. Çağdaş'ın naaşı, Işıklar Mezarlığı'na defnedilecek.",
+            " Öykü Arin, babasından nakledilen iliğin yüzde 98,5 oranında tuttuğunu öğrenen anne Eylem Şen Yazıcı, sosyal medya hesabından oğlunun doktorları için söylediği şarkının sözlerini paylaştı. Öykü Arin, Vedat Hocayı sevse de jelibon vermediği için eleştiriyor."
+          ],
+          "reference": [
+            "İZMİR'in Menderes ilçesi Özdere bölgesindeki ormanlık alanda elektrik tellerinin sürtünmesi sonucu orman yangını çıktı. Alevlerin tehdit ettiği bölgede bulunan otellerde konaklayanlar, ekipler tarafından tahliye edildi.",
+            "İZMİR'in Menderes ilçesi Özdere bölgesindeki ormanlık alanda elektrik tellerinin sürtünmesi sonucu orman yangını çıktı. Alevlerin tehdit ettiği bölgede bulunan otellerde konaklayanlar, ekipler tarafından tahliye edildi.",
+            "KAYSERİ'de bulunan Homurlu Şelalesi'nde kayalıklarda fotoğraf çekinirken dengesini kaybederek dereye düşen genci arama çalışmaları sürüyor.",
+            "Sırıkla atlamada eski Türkiye rekortmeni, estetik cerrah Prof. Dr. Arman Çağdaş hayatını kaybetti.",
+            "ANTALYA'da, babası Çağdaş Yazıcı'dan yarı uyumlu naklin yüzde 98,5 tuttuğu lösemi hastası Öykü Arin (4), tedavisini yürüten doktorları için gitarla şarkı söyledi."
+          ]
+        }
+      },
+      "xlsum": {
+        "rouge_scores": {
+          "rouge1": 0.21492947053910816,
+          "rouge2": 0.08382959835360829,
+          "rougeL": 0.153406554094166,
+          "num_successful": 100
+        },
+        "sample_summaries": {
+          "generated": [
+            " \nHDP İmralı Heyeti, Kobani'de katliam tehlikesinin bertaraf edilmesi, çözüm süreci ile ilgili adımların hızlandırılması ve toplumsal olaylara yaklaşım konusunda gerekli hassasiyetlerin gösterilmesi gerektiğini söyledi. KCK, Kobani halkına yardım amaçlı bir koridorun açılmasının \"süreci normalleştireceğini\" belirtti. HDP Eş Genel Başkanı Selahattin Demirtaş, Kobani'deki durumla ilgili PKK lideri Abdullah Öcalan'la kısa bir yazışma gerçekleştirdiğini söyledi.",
+            " Penguenler, Antarktika'da yaşayan ve \"Büyük penguen\" olarak da anılan bu kuş türüne yönelik asıl tehdidin deniz-buz oranındaki değişimden iddia edildi. Çalışma, penguen grupları arasında farklı dinamiklerin etkili olacağını ancak yine de tüm gruplarda sayının azalacağını savunuyor. Araştırmacılar, devletlerin penguenleri \"nesli tükenmekte olan kuşlar\" olarak korumaya alması önerisinde bulundu.",
+            " Grace Smith, sigarayı bırakmak için hipnoterapiye başvurdu ve başarılı oldu. Daha sonra hipnoterapist oldu ve şirketini kurdu. Şirket, dünya genelinde müşterilere internet üzerinden hipnoterapi seansları sunuyor. Grace, hipnoterapiyi \"bir amacı olan meditasyon\" olarak tanımlıyor ve müşterileri kilo vermekten, stresten arınmaya kadar birçok şeyi başarmak için kullanıyor. Hipnoterapi, birçok büyük tıbbi kurum tarafından destekleniyor ve kullanımı giderek artıyor.",
+            " Çin resmi haber ajansı Şinhua, arama yapılan bölgede uçan Çin uçaklarının başka cisimler tespit ettiğini duyurdu. Çin devriye gemisi ve iki helikopter taşıyan donanmaya ait bir diğer geminin cisimlerin tespit edildiği bölgeye ulaştığı belirtildi. Avustralya bölgedeki arama çalışmalarına sekiz uçağın da katıldığını bildirdi. Uçaklardan biri suda üç turuncu, beyaz ve kırmızı cisim tespit etti. Arama bölgesi değiştirildi.",
+            " Merkez Bankası, faiz koridorunda 0,5 puanlık indirime gitti. Gecelik borçlanma faizi yüzde 10,75'ten yüzde 10,25'e çekilirken, borç verme oranı yüzde 7,50'den 7,25'e düşürüldü. Merkez Bankası, faizlerdeki indirimin enflasyonun düşüşünü hızlandıracağını ve kalıcı olmasını sağlayacağını belirtti. Merkez Bankası, cari dengede olumlu bir tablo olduğunu ve büyümenin hızlandırılması için yapısal reformlara vurguda bulundu."
+          ],
+          "reference": [
+            "HDP İmralı Heyeti, akşam saatlerinde İçişleri Bakanı Efkan Ala ile bir araya gelerek son gelişmelerin değerlendirildiğini; tüm devlet ve hükümet yetkilileriyle diyalog ve temasların sürdürüleceğini açıkladı.",
+            "İklim değişikliğinin Antarktika'daki penguen nüfusunu olumsuz etkileyebileceği belirtiliyor. Yapılan bir çalışmaya göre, sayıları 600 bini bulan penguenlerin 2100 yılı itibariyle beşte biri oranında azalabileceği ifade ediliyor.",
+            "BBC'nin dünyanın farklı köşelerinden iş dünyasının başarılı isimlerinin hayat hikayelerine odaklandığı haftalık The Boss (Patron) yazı dizisinin bu haftaki konuğu, sigarayı bırakıp, küresel bir hipnoterapi şirketi kuran ABD'li iş kadını Grace Smith.",
+            "Çin gemileri dün ve bugün uçakların bazı cisimler tespit ettiği Hint Okyanusu'nun güneyindeki bölgede kayıp Malezya Havayolları uçağını arıyor.",
+            "Merkez Bankası, gerileyen petrol fiyatlarına paralel düşen enflasyonu gerekçe göstererek politika faizi olan bir haftalık repo faizini çeyrek puan düşürerek yüzde 7,75'ten yüzde 7,50'ye indirdi."
+          ]
+        }
+      }
+    }
+  }
+}

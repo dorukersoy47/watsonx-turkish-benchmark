@@ -13,6 +13,8 @@ from rouge_score import rouge_scorer
 from tqdm import tqdm
 from plot_results import plot_rouge_results, print_summary_stats
 
+TEST_NUMBER = 100
+
 # Support functions
 def finish_sentence(text: str) -> str:
     last_dot = max(text.rfind("."), text.rfind("!"), text.rfind("?"))
@@ -61,8 +63,8 @@ def evaluate_rouge_scores(generated_summaries: List[str], reference_summaries: L
     }
 
 # Loading datasets
-mlsum_dataset = load_dataset("mlsum", "tu", split="test[:250]")
-xlsum_dataset = load_dataset("csebuetnlp/xlsum", "turkish", split="test[:250]")
+mlsum_dataset = load_dataset("mlsum", "tu", split=f"test[:{TEST_NUMBER}]")
+xlsum_dataset = load_dataset("csebuetnlp/xlsum", "turkish", split=f"test[:{TEST_NUMBER}]")
 
 # Configure Watsonx credentials
 load_dotenv()
@@ -77,7 +79,16 @@ if not project_id:
 if not service_url:
     raise ValueError("REGION_URL environment variable is required")
 
-creds = Credentials(api_key=api_key, url=service_url)
+# For watsonx.ai Studio projects, use APIClient instead of direct credentials
+from ibm_watsonx_ai import APIClient
+
+wml_credentials = {
+    "url": service_url,
+    "apikey": api_key
+}
+
+client = APIClient(wml_credentials)
+client.set.default_project(project_id)
 
 # Optimized params for consistent summarization of full text
 params = {
@@ -97,27 +108,27 @@ params = {
 models = {
     "granite-3-8b": ModelInference(
         model_id="ibm/granite-3-8b-instruct",
+        credentials=wml_credentials,
         project_id=project_id,
-        params=params,
-        credentials=creds
+        params=params
     ),
     "llama-3-3-70b": ModelInference(
         model_id="meta-llama/llama-3-3-70b-instruct",
+        credentials=wml_credentials,
         project_id=project_id,
-        params=params,
-        credentials=creds
+        params=params
     ),
     "llama-3-2-90b": ModelInference(
         model_id="meta-llama/llama-3-2-90b-vision-instruct",
+        credentials=wml_credentials,
         project_id=project_id,
-        params=params,
-        credentials=creds
+        params=params
     ),
     "llama-3-2-11b": ModelInference(
         model_id="meta-llama/llama-3-2-11b-vision-instruct",
+        credentials=wml_credentials,
         project_id=project_id,
-        params=params,
-        credentials=creds
+        params=params
     )
 }
 
@@ -140,7 +151,7 @@ results = {
 }
 
 print(f"Starting ROUGE evaluation for {len(models)} models on {len(datasets_to_evaluate)} datasets...")
-print(f"Each dataset contains 250 examples.")
+print(f"Each dataset contains {TEST_NUMBER} examples.")
 
 # Evaluate each model on each dataset
 for model_name, model in models.items():
@@ -202,7 +213,7 @@ print("-" * 80)
 for model_name, model_results in results["model_results"].items():
     for dataset_name, dataset_results in model_results.items():
         scores = dataset_results["rouge_scores"]
-        success_rate = scores['num_successful'] / 250 * 100  
+        success_rate = scores['num_successful'] / TEST_NUMBER * 100  
         print(f"{model_name:<20} {dataset_name:<10} {scores['rouge1']:<10.4f} {scores['rouge2']:<10.4f} {scores['rougeL']:<10.4f} {success_rate:<9.1f}%")
 
 # Generate visualization and summary
